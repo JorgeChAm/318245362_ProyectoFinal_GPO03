@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67c763f0a97db04a8c7e9c6cb8a8027, type: 3}
+  m_Name: Acometida
+  m_EditorClassIdentifier: Assembly-CSharp::Magic
+  nombre: Acometida
+  descripcion: Un destello de luz sagrada que golpea al enemigo con fuerza implacable.
+  magicType: 0
+  esArea: 0
+  valor: 60
+  precision: 70
+  usosMaximos: 10
+  castClip: {fileID: 7400000, guid: da0d7c3d6e13b4e4a84d1184d00ef9b3, type: 2}
+  tiempoLanzamiento: 0.5
+  projectilePrefab: {fileID: 1735490316544119601, guid: 17fdc34161239fd43a6688a90c50340b, type: 3}
+  targetEffectPrefab: {fileID: 0}
+  effectDuration: 1.5
+  audioClip: {fileID: 8300000, guid: 7d6c0955543238e4f805ac7017ff4f0d, type: 3}
